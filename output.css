@@ -635,10 +635,6 @@ video {
   clear: none;
 }
 
-.m-auto{
-  margin: auto;
-}
-
 .mx-4{
   margin-left: 1rem;
   margin-right: 1rem;
@@ -647,21 +643,6 @@ video {
 .my-6{
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
-}
-
-.mx-24{
-  margin-left: 6rem;
-  margin-right: 6rem;
-}
-
-.mx-auto{
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.my-auto{
-  margin-top: auto;
-  margin-bottom: auto;
 }
 
 .mt-6{
@@ -792,20 +773,8 @@ video {
   height: 100vh;
 }
 
-.h-full{
-  height: 100%;
-}
-
-.h-auto{
-  height: auto;
-}
-
 .w-full{
   width: 100%;
-}
-
-.w-\[375px\]{
-  width: 375px;
 }
 
 .max-w-\[375px\]{
@@ -824,20 +793,16 @@ video {
   flex-shrink: 1;
 }
 
-.flex-grow{
-  flex-grow: 1;
-}
-
 .flex-grow-0{
   flex-grow: 0;
 }
 
-.grow{
+.flex-grow{
   flex-grow: 1;
 }
 
-.grow-0{
-  flex-grow: 0;
+.grow{
+  flex-grow: 1;
 }
 
 .table-auto{
@@ -1731,10 +1696,6 @@ video {
           box-decoration-break: clone;
 }
 
-.bg-cover{
-  background-size: cover;
-}
-
 .bg-fixed{
   background-attachment: fixed;
 }
@@ -1762,10 +1723,6 @@ video {
 .bg-clip-text{
   -webkit-background-clip: text;
           background-clip: text;
-}
-
-.bg-center{
-  background-position: center;
 }
 
 .bg-repeat{
@@ -1837,16 +1794,6 @@ video {
 .py-4{
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-
-.px-4{
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.px-24{
-  padding-left: 6rem;
-  padding-right: 6rem;
 }
 
 .text-left{
@@ -2385,11 +2332,6 @@ video {
 
   .xl\:flex-row{
     flex-direction: row;
-  }
-
-  .xl\:bg-red-400{
-    --tw-bg-opacity: 1;
-    background-color: rgb(248 113 113 / var(--tw-bg-opacity));
   }
 }
 
